@@ -11,7 +11,7 @@ export function Button(){
                 <Text 
                     style={styles.buttonText}
                 >
-                    Avançar
+                    >
                 </Text>
             </TouchableOpacity>
     )
@@ -25,12 +25,11 @@ const styles = StyleSheet.create({
         borderRadius: 16,
         marginBottom: 10,
         height: 56,
+        width: 56,
         paddingHorizontal: 10
     },
     buttonText: {
         color: colors.white,
-        fontSize: 24,
-        alignItems: 'center',
-        justifyContent: 'center'
+        fontSize: 24
     }
 });
